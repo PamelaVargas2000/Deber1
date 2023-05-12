@@ -8,6 +8,7 @@ package Ejercicio2;
  *
  * @author pamel
  */
-public class Jerarquia {
-    
+abstract class Jerarquia {
+    abstract double area();
+
 }
