@@ -8,7 +8,7 @@ package Ejercicio2;
  *
  * @author pamel
  */
-class Triangulo extends Jerarquia {
+class Triangulo extends Figura {
     private double base;
     private double altura;
     

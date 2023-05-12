@@ -10,8 +10,12 @@ package Ejercicio1;
  */
 public class C {
 
-void p (C c) { System.out.println("CC "); }
-void p (D d) { System.out.println("CD "); }
+void p (C c) {
+    System.out.println("CC "); 
+}
+void p (D d) {
+    System.out.println("CD ");
+}
 }
 class D extends C {
 void p (C c) { System.out.println("DD"); };

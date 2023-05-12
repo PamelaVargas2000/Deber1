@@ -10,13 +10,13 @@ import java.util.Vector;
  *
  * @author pamel
  */
-public class Main {
+public class Main2 {
   public static void main(String[] args) {
-        Vector<Jerarquia> Jerarquia = new Vector<Jerarquia>();
-        Jerarquia.add(new Circulo(10)); 
-        Jerarquia.add(new Cuadrado(10)); 
-        Jerarquia.add(new Triangulo(10,5)); 
-        for (Jerarquia f: Jerarquia)
+        Vector<Figura> Figuras = new Vector<Figura>();
+        Figuras.add(new Circulo(10)); 
+        Figuras.add(new Cuadrado(10)); 
+        Figuras.add(new Triangulo(10,5)); 
+        for (Figura f: Figuras)
             System.out.println("Área: "+f.area());
     }  
 }

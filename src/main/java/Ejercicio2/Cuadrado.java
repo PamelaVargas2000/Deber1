@@ -9,7 +9,7 @@ package Ejercicio2;
  * @author pamel
  */
 
-    class Cuadrado extends Jerarquia {
+    class Cuadrado extends Figura {
     private double lado;
     
     public Cuadrado(int lado) {

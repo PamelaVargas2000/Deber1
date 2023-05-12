@@ -8,7 +8,7 @@ package Ejercicio2;
  *
  * @author pamel
  */
-class Circulo extends Jerarquia {
+class Circulo extends Figura {
     private double radio;
     
     public Circulo(double radio) {
